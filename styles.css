@@ -202,10 +202,16 @@ a:active {
     background: #61032d;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .slidebarname {
     padding-left: 25px;
+    padding-top: 75px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
 }
 
 .box:hover {
@@ -216,13 +222,17 @@ a:active {
 .box:hover > .listbar {
     text-decoration: underline;
     overflow-wrap: break-word;
-    font-size: inherit;
     color: white;
+    padding-right: 5px;
+    font-size: unset;
 }
 
 .box:hover > .slidebarname {
     text-align: center;
     color: #fff;
+    padding-top: 25px;
+    font-weight: bold;
+    text-decoration: unset;
 }
 
 .listbar {
