@@ -75,6 +75,12 @@ a:active {
     font-weight: bold;
     font-style: italic;
     letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+.info p1 {
+    font-weight: bold;
+    color: #708090;
 }
 
 .info em {
@@ -249,12 +255,8 @@ a:active {
     padding-right: 1px;
 }
 
-.mailslide {
+.mailslide, .maplink {
     color: honeydew;
-}
-
-.mailslide:hover {
-    color: #228b22;
 }
 
 
